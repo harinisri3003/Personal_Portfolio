@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Harini Sri - Portfolio</title>
+  <meta name="title" content="Harini Sri - Developer">
+  <meta name="description" content="This is a personal portfolio">
+
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="images/hero-banner.jpg">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #PRELOADER
+  -->
+
+  <div class="preloader" data-preloader>
+    <div class="circle"></div>
+  </div>
+
+
+
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="images/logo.svg" width="170" height="40" alt="Pfolio home">
+      </a>
+
+      <button class="nav-toggle-btn" data-nav-toggler data-nav-toggle-btn aria-label="Toggle menu">
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+      </button>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link">Resume</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link">Skills</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link">Certifications</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link">Projects</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link">Contact</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" aria-label="home">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title">Harini Sri </h1>
+
+            <p class="hero-subtitle">
+            Full Stack Developer | Python Developer | Graphic Designer
+            </p>
+
+            <div class="hero-banner">
+              <img src="images/hero-banner.jpg" width="800" height="800" alt="kane williams" class="w-100">
+            </div>
+
+            <p class="section-text">
+              Hi, I'm Harini Sri, Passionate about creating innovative 
+              and user-friendly digital experiences. 
+              Continuously learning and evolving, I strive to turn 
+              ideas into impactful solutions.
+            </p>
+
+            <a href="images/Harini_Resume.pdf" download="Harini_Resume" class="btn has-before">
+                <span class="span">Download CV</span>
+                <ion-icon name="download-outline" aria-hidden="true"></ion-icon>
+            </a>
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <!-- <section class="service" aria-labelledby="service-label">
+        <div class="container">
+
+          <div class="title-wrapper">
+
+            <div>
+              <p class="section-subtitle">
+                Services That I Provide
+              </p>
+
+              <h2 class="h2 section-title" id="service-label">Services</h2>
+            </div>
+
+            <p class="section-text">
+              Phasellus et lacus suscipit congue nisl the volutpat magna. donec miss the drana risus tincidunt convallis
+              velit orci congue tortor eu dignissim ipsum suam non odio. Pellenta esuntion miss the imperdiet metus
+              ornare.
+            </p>
+
+          </div>
+
+          <div class="slider" data-slider>
+
+            <ul class="slider-container service-list" data-slider-container>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="desktop-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">Website Design</h3>
+
+                  <p class="card-text">
+                    Website ravida surna eveti semen the conse tusio anivite dianne one nivam acestion vue artin dictum.
+                  </p>
+
+                  <span class="text-lg card-number">01</span>
+
+                  <a href="#" class="layer-link" aria-label="More about my website design service"></a>
+
+                </div>
+              </li>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="podium-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">SEO Marketing</h3>
+
+                  <p class="card-text">
+                    Website ravida surna eveti semen the conse tusio anivite dianne one nivam acestion vue artin dictum.
+                  </p>
+
+                  <span class="text-lg card-number">02</span>
+
+                  <a href="#" class="layer-link" aria-label="More about my SEO Marketing service"></a>
+
+                </div>
+              </li>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="basket-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">eCommerce</h3>
+
+                  <p class="card-text">
+                    Website ravida surna eveti semen the conse tusio anivite dianne one nivam acestion vue artin dictum.
+                  </p>
+
+                  <span class="text-lg card-number">03</span>
+
+                  <a href="#" class="layer-link" aria-label="More about my eCommerce service"></a>
+
+                </div>
+              </li>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="color-filter-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">Graphic Design</h3>
+
+                  <p class="card-text">
+                    Website ravida surna eveti semen the conse tusio anivite dianne one nivam acestion vue artin dictum.
+                  </p>
+
+                  <span class="text-lg card-number">04</span>
+
+                  <a href="#" class="layer-link" aria-label="More about my Graphic Design service"></a>
+
+                </div>
+              </li>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="megaphone-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">Digital Marketing</h3>
+
+                  <p class="card-text">
+                    Website ravida surna eveti semen the conse tusio anivite dianne one nivam acestion vue artin dictum.
+                  </p>
+
+                  <span class="text-lg card-number">05</span>
+
+                  <a href="#" class="layer-link" aria-label="More about my Digital Marketing service"></a>
+
+                </div>
+              </li>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="chatbubbles-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">Social Media</h3>
+
+                  <p class="card-text">
+                    Website ravida surna eveti semen the conse tusio anivite dianne one nivam acestion vue artin dictum.
+                  </p>
+
+                  <span class="text-lg card-number">06</span>
+
+                  <a href="#" class="layer-link" aria-label="More about my Social Media service"></a>
+
+                </div>
+              </li>
+
+            </ul>
+
+            <div class="slider-controls">
+              <button class="slider-control prev" data-slider-prev aria-label="Slide to previous item">
+                <div class="line"></div>
+                <div class="arrow"></div>
+              </button>
+
+              <button class="slider-control next" data-slider-next aria-label="Slide to next item">
+                <div class="line"></div>
+                <div class="arrow"></div>
+              </button>
+            </div>
+
+          </div>
+
+        </div>
+      </section> -->
+
+
+
+
+
+      <!-- 
+        - #SKILLS
+      -->
+
+      <section class="section skills" aria-label="our skills">
+        <div class="container">
+
+          <p class="section-subtitle">I Make The Future</p>
+
+          <h2 class="h2 section-title">I Develop & Create Digital Future.</h2>
+
+          <div class="skills-wrapper">
+
+            <div>
+
+              <a href="#" class="btn has-before">harinisri3003@gmail.com</a>
+            </div>
+
+            <div>
+
+              <ul class="skills-list">
+
+                <li>
+                  <div class="progress-wrapper">
+                    <p class="progress-label">HTML, CSS, Bootstrap</p>
+
+                    <data class="progress-value" value="100">100%</data>
+                  </div>
+
+                  <div class="progress-bg">
+                    <div class="progress" style="width: 100%;"></div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="progress-wrapper">
+                    <p class="progress-label">JavaScript</p>
+
+                    <data class="progress-value" value="70">70%</data>
+                  </div>
+
+                  <div class="progress-bg">
+                    <div class="progress" style="width: 70%;"></div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="progress-wrapper">
+                    <p class="progress-label">Python</p>
+
+                    <data class="progress-value" value="80">80%</data>
+                  </div>
+
+                  <div class="progress-bg">
+                    <div class="progress" style="width: 80%;"></div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="progress-wrapper">
+                    <p class="progress-label">MySQL</p>
+
+                    <data class="progress-value" value="85">85%</data>
+                  </div>
+
+                  <div class="progress-bg">
+                    <div class="progress" style="width: 85%;"></div>
+                  </div>
+                </li>
+
+                <li>
+                    <div class="progress-wrapper">
+                      <p class="progress-label">Adobe Photoshop</p>
+  
+                      <data class="progress-value" value="100">100%</data>
+                    </div>
+  
+                    <div class="progress-bg">
+                      <div class="progress" style="width: 100%;"></div>
+                    </div>
+                  </li>
+              </ul>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PORTFOLIO
+      -->
+
+      <section class="portfolio" aria-labelledby="portfolio-label">
+
+        <div class="title-wrapper container">
+
+          <div>
+            <p class="section-subtitle" id="portfolio-label">My Awards</p>
+
+            <h2 class="h2 section-title">Certificates</h2>
+          </div>
+
+          <p class="section-text">
+            These certifications showcase my dedication to mastering key 
+            concepts in web development and programming. Each one reflects a 
+            significant milestone in my journey toward becoming a proficient developer. 
+            I believe that staying updated with the latest skills and knowledge 
+            is essential in the ever-evolving tech landscape, and I am excited to leverage these 
+            skills in practical settings to contribute to impactful projects.
+          </p>
+
+        </div>
+
+        <div class="slider" data-slider>
+
+          <ul class="slider-container" data-slider-container>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="images/portfolio-1.jpg" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">Web Development</h3>
+
+                  <p class="card-text"> By - IBM</p>
+                </div>
+
+                <a href="#" class="layer-link"></a>
+
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="images/portfolio-2.jpg" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">Python</h3>
+
+                  <p class="card-text">By - Guru Tech</p>
+                </div>
+
+                <a href="#" class="layer-link"></a>
+
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="images/portfolio-3.jpg" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">SQL and Relational Databases</h3>
+
+                  <p class="card-text">By - Cognitive Class (IBM)</p>
+                </div>
+
+                <a href="#" class="layer-link"></a>
+
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="images/portfolio-4.jpg" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">Tech Support</h3>
+
+                  <p class="card-text">By - GAO group of Companies</p>
+                </div>
+
+                <a href="#" class="layer-link"></a>
+
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="images/portfolio-5.jpg" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">Digital Marketing</h3>
+
+                  <p class="card-text">By - GAO group of Companies</p>
+                </div>
+
+                <a href="#" class="layer-link"></a>
+
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="images/portfolio-6.jpg" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">Out Zone</h3>
+
+                  <p class="card-text">UX Design / Web App</p>
+                </div>
+
+                <a href="#" class="layer-link"></a>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <div class="slider-controls">
+            <button class="slider-control prev" data-slider-prev aria-label="Slide to previous item">
+              <div class="line"></div>
+              <div class="arrow"></div>
+            </button>
+
+            <button class="slider-control next" data-slider-next aria-label="Slide to next item">
+              <div class="line"></div>
+              <div class="arrow"></div>
+            </button>
+          </div>
+
+        </div>
+
+      </section>
+
+
+
+
+
+      <!-- 
+        - #BLOG
+      -->
+
+      <section class="section blog" aria-labelledby="blog-label">
+        <div class="container">
+
+          <p class="section-subtitle" id="blog-label">Innovative Works</p>
+
+          <h2 class="h2 section-title">Recent Project</h2>
+
+          <ul class="blog-list">
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 700; --height: 470;">
+                  <img src="images/blog-1.jpg" width="700" height="470" loading="lazy"
+                    alt="expense tracker." class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <time class="time" datetime="202-09-26">
+                    <span class="span text-lg">2024</span>
+                    September
+                  </time>
+
+                  <div>
+                    <h3 class="h3 card-title">Expense Tracker - Python</h3>
+
+                    <p class="card-text">
+                        Implemented features for adding, categorizing, and viewing expenses, allowing
+                        users to monitor spending habits. Integrated user-friendly interfaces to enhance usability and improve user
+                        experience
+                    </p>
+
+                    <a href="#" class="btn has-before">
+                      <span class="span">Read more</span>
+
+                      <ion-icon name="arrow-forward"></ion-icon>
+                    </a>
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 700; --height: 470;">
+                  <img src="images/blog-2.jpg" width="700" height="470" loading="lazy"
+                    alt="get_fit_with_me website." class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <time class="time" datetime="2022-06-27">
+                    <span class="span text-lg">2024</span>
+                    June
+                  </time>
+
+                  <div>
+                    <h3 class="h3 card-title">Get_Fit_with_Me Website - HTML, CSS, Bootstrap</h3>
+
+                    <p class="card-text">
+                        Ensured full responsiveness across mobile, tablet, and desktop devices for a
+                        seamless user experience. Focused on delivering a user-friendly interface to improve
+                        overall interaction and accessibility.
+                    </p>
+
+                    <a href="#" class="btn has-before">
+                      <span class="span">Read more</span>
+
+                      <ion-icon name="arrow-forward"></ion-icon>
+                    </a>
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+            <li>
+                <div class="blog-card">
+  
+                  <figure class="card-banner img-holder" style="--width: 700; --height: 470;">
+                    <img src="images/blog-3.jpg" width="700" height="470" loading="lazy"
+                      alt="To- do List" class="img-cover">
+                  </figure>
+  
+                  <div class="card-content">
+  
+                    <time class="time" datetime="202-09-26">
+                      <span class="span text-lg">2024</span>
+                      May
+                    </time>
+  
+                    <div>
+                      <h3 class="h3 card-title">To Do List - HTML, CSS, JavaScript</h3>
+  
+                      <p class="card-text">
+                        Users can easily add new tasks to the list by typing them into the input field and pressing enter.
+                        Users have the option to delete tasks they no longer need, keeping the list clutter-free.
+                        The application is designed to be responsive across devices.
+                        
+                      </p>
+  
+                      <a href="#" class="btn has-before">
+                        <span class="span">Read more</span>
+  
+                        <ion-icon name="arrow-forward"></ion-icon>
+                      </a>
+                    </div>
+  
+                  </div>
+  
+                </div>
+              </li>
+          </ul>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Get in touch</p>
+        </li>
+
+        <li>
+          <a href="harinisri3003@gmail.com" class="footer-link">harinisri3003@gmail.com</a>
+        </li>
+
+      </ul>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Location</p>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Coimbatore</a>
+        </li>
+
+      </ul>
+
+      <ul class="social-list">
+
+        <li>
+          <a href="https://github.com/harinisri3003" class="social-link">
+            <ion-icon name="logo-github"></ion-icon>          </a>
+        </li>
+
+        <li>
+          <a href="https://www.linkedin.com/in/harinisri3003/" class="social-link">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a>
+        </li>
+
+      </ul>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
